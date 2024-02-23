@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  soloproject:
+    image: soloproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002

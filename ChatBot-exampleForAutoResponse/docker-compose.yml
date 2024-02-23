@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  soloproject-Chatbot:
+    image: soloproject-Chatbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
