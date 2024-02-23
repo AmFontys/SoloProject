@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "question": "Hello",
+      "answer": "Hello User"
+    },
+    {
+      "question": "What is hello?",
+      "answer": "Hello"
+    },
+    {
+      "question": "Which alien movie is better",
+      "answer": "aliens"
+    }
+  ]
+}

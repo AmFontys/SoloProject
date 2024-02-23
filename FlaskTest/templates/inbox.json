@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "category": "search",
+      "date": "23-02-2024:11:14:00",
+      "post": "Hello world"
+    },
+    {
+      "category": "chat",
+      "date": "23-02-2024:11:14:00",
+      "post": "Hello world"
+    },
+    {
+      "category": "search",
+      "date": "23-02-2024:11:51:00",
+      "post": "Hello"
+    },
+    {
+      "post": "Hello User",
+      "date": "23-02-2024:11:48:23",
+      "category": "search_response"
+    }
+  ]
+}
