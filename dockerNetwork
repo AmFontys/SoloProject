@@ -1,0 +1,9 @@
+# Create a Network
+docker network create internal-container-network
+
+# Start the platform Container and Attach to the Created Network
+docker container run -it -d – name platform01 --network internal-container-network soloproject
+
+# Start the bot Container and Attach to the Created Network
+docker container run -it -d – name sbot01 --network internal-container-network soloproject-chatbot
+

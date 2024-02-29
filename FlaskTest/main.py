@@ -32,7 +32,7 @@ app = Flask(__name__)
 def hello(): 
     return render_template('index.html')
 
-@app.route("/Actor")
+@app.route("/Actor/")
 def actor():
     d= loadJson()
     return jsonify(d)

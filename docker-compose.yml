@@ -1,0 +1,16 @@
+# For the entire network
+version: '3.4'
+
+services:  
+  soloproject:
+    image: soloproject
+    build:
+      context: .
+      dockerfile: ./FlaskTest/Dockerfile
+    ports:
+      - 5000:5002
+  soloproject-chatbot:
+    image: soloproject-chatbot
+    build:
+      context: .
+      dockerfile: ./ChatBot-exampleForAutoResponse/Dockerfile
